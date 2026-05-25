@@ -1,0 +1,14 @@
+User-agent: *
+Allow: /
+Disallow: /private/
+Disallow: /.next/
+
+Sitemap: https://adithi-construction.vercel.app/sitemap.xml
+
+# Additional crawl delay for slow servers (optional)
+# Crawl-delay: 0
+
+# Block bad bots
+User-agent: AhrefsBot
+User-agent: SemrushBot
+Disallow: /
